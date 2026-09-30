@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#070b16">
+    <meta name="description" content="Amar — BCA student, aspiring data analyst and cybersecurity enthusiast. Web and programming projects.">
+    <title>Contact | Amar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script defer src="data.js"></script>
+    <script defer src="three-bg.js"></script>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div id="canvas3d-container" aria-hidden="true"></div>
+    <header class="site-header">
+        <nav class="nav shell" aria-label="Main navigation"><a class="logo" href="index.html">&lt;AMAR<span>.DEV</span>/&gt;</a>
+            <div class="nav-links" id="navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a href="experience.html">Journey</a><a href="contact.html">Contact</a></div>
+            <div class="nav-actions"><button type="button" class="sound-btn" aria-pressed="false">♫ AUDIO OFF</button><button type="button" class="menu-btn" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">☰</button></div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-head shell"><span class="section-kicker">// CONNECT</span>
+            <h1>LET'S <span class="gradient">CONNECT</span></h1>
+            <p>Questions, project collaboration or an opportunity? Get in touch.</p>
+        </section>
+        <section class="section shell contact-grid">
+            <div>
+                <article class="card">
+                    <h2>Find me online</h2>
+                    <div style="margin: 16px 0; display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+                        <span style="font-family:'JetBrains Mono',monospace; color:var(--cyan); background:#0c192d; padding:8px 14px; border-radius:8px; border:1px solid #28446b;">
+                            amar20180041470@gmail.com
+                        </span>
+                        <button type="button" class="btn btn-outline" id="copy-email-btn" style="padding: 8px 14px; font-size: 0.82rem;">
+                            📋 Copy Email
+                        </button>
+                        <a class="btn btn-primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=amar20180041470@gmail.com" target="_blank" rel="noopener noreferrer" style="padding: 8px 14px; font-size: 0.82rem;">
+                            ↗ Open in Gmail
+                        </a>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-outline" data-social="github" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        <a class="btn btn-outline" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                    </div>
+                    <p class="muted">Instagram: <strong>@urff_amar</strong> · BCA student at IGNOU, Delhi.</p>
+                </article>
+                <div class="terminal" style="margin-top:24px">
+                    <div class="terminal-head">● ● ● &nbsp; amar@portfolio:~</div>
+                    <div class="terminal-body" id="terminal-log">Welcome! Type help to view commands.</div>
+                    <input class="terminal-input" id="terminal-input" aria-label="Terminal command" placeholder="help | about | skills | projects | neofetch | whoami | sudo | clear">
+                </div>
+            </div>
+            <article class="card">
+                <h2>Send an email</h2>
+                <p class="muted">This form opens your email app; it does not secretly submit or store messages.</p>
+                <form id="contact-form">
+                    <label for="sender-name">Your name</label>
+                    <input class="field" id="sender-name" required placeholder="Name">
+                    <label for="sender-email">Your email</label>
+                    <input class="field" id="sender-email" type="email" required placeholder="you@example.com">
+                    <label for="sender-message">Your message</label>
+                    <textarea class="field" id="sender-message" rows="6" required placeholder="Tell me about your idea..."></textarea>
+                    <button class="btn btn-primary" type="submit">✉ Open email app</button>
+                    <p id="form-status" class="muted" role="status" aria-live="polite"></p>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer class="footer shell"><span>© 2026 Amar · Built to keep growing.</span>
+        <div><a data-social="github" target="_blank" rel="noopener noreferrer">GitHub</a> · <a data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="contact.html">Contact</a></div>
+    </footer>
+</body>
+
+</html>
