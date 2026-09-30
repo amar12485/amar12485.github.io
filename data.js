@@ -8,7 +8,7 @@ window.PORTFOLIO = {
     instagram: "https://www.instagram.com/urff_amar/", // Instagram: @urff_amar
     linkedin: "", // Optional
     resume: "", // e.g. assets/Amar-Resume.pdf
-    photo: "assets/profile.jpg", // Add your own photo with this filename
+    photo: "profile.jpg", // Add your own photo with this filename
     skills: [
         { name: "HTML & CSS", group: "Web development", level: "Practicing" },
         { name: "JavaScript", group: "Web development", level: "Practicing" },
